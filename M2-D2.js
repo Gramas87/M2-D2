@@ -1,4 +1,4 @@
-/*
+
 let genres = ["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"]
 
 let list = document.createElement("ul")
@@ -12,5 +12,5 @@ for (let i = 0; i < genres.length; i++) {
  div.appendChild(list)
 
  let body = document.getElementsByTagName("body")
- body[0].push(div)
- */
+ body[0].appendChild(div)
+ 
